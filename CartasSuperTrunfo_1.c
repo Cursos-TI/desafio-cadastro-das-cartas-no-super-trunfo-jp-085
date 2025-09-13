@@ -16,6 +16,7 @@ int main() {
     int populacao02, ponto02; 
     float area02, pib02;
 
+//Coleta de dados carta 1
     printf("Digite os Dados da Carta 1\n ");
     printf("Nome do estado: ");
     scanf(" %s", estado01);
@@ -38,6 +39,7 @@ int main() {
     printf("Quantidade de pontos turísticos: ");
     scanf("%d", &ponto01);
 
+     //Exibição da carta 1
     printf("-----Carta 1-----\n");
     printf("Estado: %s\n", estado01);
     printf("Codigo: %s\n", codigo01);
@@ -48,6 +50,7 @@ int main() {
     printf("Números de Pontos Turísticos: %d\n", ponto01);
     printf("-----------------\n");
 
+    //Coleta de dados da carta 2
     printf("Digite os Dados da Carta 2\n ");
     printf("Nome do estado: ");
     scanf(" %s", estado02);
@@ -70,6 +73,7 @@ int main() {
     printf("Quantidade de pontos turísticos: ");
     scanf("%d", &ponto02);
 
+    // Exibiçao dos dados da carta 2
     printf("-----Carta 2-----\n");
     printf("Estado: %s\n", estado02);
     printf("Codigo: %s\n", codigo02);
