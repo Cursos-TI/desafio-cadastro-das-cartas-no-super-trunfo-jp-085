@@ -46,7 +46,7 @@ int main() {
     printf("Área: %.2f km²\n", area01);
     printf("PIB: %.2f bilhões de reais\n", pib01);
     printf("Números de Pontos Turísticos: %d\n", ponto01);
-    printf("-----------------");
+    printf("-----------------\n");
 
     printf("Digite os Dados da Carta 2\n ");
     printf("Nome do estado: ");
@@ -78,7 +78,7 @@ int main() {
     printf("Área: %.2f km²\n", area02);
     printf("PIB: %.2f bilhões de reais\n", pib02);
     printf("Números de Pontos Turísticos: %d\n", ponto02);
-    printf("-----------------");
+    printf("-----------------\n");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
